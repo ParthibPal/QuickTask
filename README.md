@@ -1,4 +1,3 @@
-````markdown
 # 🚀 QuickTask
 
 **QuickTask** is a modern, full-stack **Task Management Application** built with **React + Spring Boot**.  
@@ -18,62 +17,67 @@ It helps you stay organized with categories, priorities, and due dates — all w
 
 ## 🛠 Tech Stack
 
-| Layer | Technology |
-| :---- | :---------- |
-| **Frontend** | React (Vite) |
-| **Backend** | Spring Boot |
-| **Database** | H2 / MySQL |
+| Layer     | Technology            |
+|-----------|------------------------|
+| Frontend  | React (Vite)           |
+| Backend   | Spring Boot            |
+| Database  | H2 / MySQL              |
 
 ---
 
 ## ⚙️ Setup Instructions
 
-### 🔹 Clone the Repository
+### 🔹 Clone the Repository  
 ```bash
 git clone https://github.com/ParthibPal/QuickTask.git
 cd QuickTask
-````
-
-### 🔹 Run the Backend
-
-```bash
+🔹 Run the Backend
+bash
+Copy code
 cd quicktask-backend
 ./mvnw spring-boot:run
-```
-
-### 🔹 Run the Frontend
-
-```bash
+🔹 Run the Frontend
+bash
+Copy code
 cd quicktask-frontend
 npm install
 npm run dev
-```
+🔹 Access the App
+🌐 Frontend: http://localhost:5173
 
-### 🔹 Access the App
+🔧 Backend: http://localhost:8080
 
-* 🌐 Frontend: `http://localhost:5173`
-* 🔧 Backend: `http://localhost:8080`
+📸 Preview (Optional)
+Screenshot / GIF goes here (e.g. ./assets/screenshot.png)
 
----
+📈 Future Enhancements
+🔔 Task reminders & notifications
 
-## 📸 Preview (Optional)
+☁️ Cloud deployment (Render / Vercel / Railway)
 
-> *(Add screenshots or GIFs here to showcase the UI)*
+👥 User authentication & profiles
 
----
+📊 Analytics dashboard
 
-## 📈 Future Enhancements
+💡 About the Developer
+Built with ❤️ by Parthib Pal
+📧 Passionate about building clean, efficient full-stack applications.
 
-* 🔔 Task reminders & notifications
-* ☁️ Cloud deployment (Render / Vercel / Railway)
-* 👥 User authentication & profiles
-* 📊 Analytics dashboard
+⭐ If you like this project, consider giving it a star on GitHub!
+less
+Copy code
 
----
+### 🎯 Extra Enhancements You Might Add
 
-## 💡 About the Developer
+- **Badges** at the top, e.g.:
 
-Built with ❤️ by [**Parthib Pal**](https://github.com/ParthibPal)
-📧 *Passionate about building clean, efficient full-stack applications.*
-### ⭐ If you like this project, consider giving it a **star** on GitHub!
+  ```md
+  ![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
+  ![Spring Boot](https://img.shields.io/badge/Backend-Spring%20Boot-green?logo=springboot)
+  ![License](https://img.shields.io/badge/License-MIT-orange)
+Screenshots or GIFs to show the UI.
+
+A License section (e.g. MIT, Apache).
+
+Maybe Links to live deployment (if any).
 
