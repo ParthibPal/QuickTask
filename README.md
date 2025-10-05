@@ -20,7 +20,8 @@ npm run dev
 ---
 
 ## 📸 Preview (Optional)
-(Add screenshots or GIFs here — e.g. ./assets/screenshot.png)
+<img width="877" height="916" alt="image" src="https://github.com/user-attachments/assets/6b9fa134-33d7-452d-a990-8f03369d0362" />
+
 
 ---
 
