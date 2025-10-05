@@ -1,4 +1,3 @@
-````markdown
 # 🚀 QuickTask
 
 **QuickTask** is a modern, full-stack **Task Management Application** built with **React + Spring Boot**.  
@@ -32,63 +31,3 @@ It helps you stay organized with categories, priorities, and due dates — all w
 ```bash
 git clone https://github.com/ParthibPal/QuickTask.git
 cd QuickTask
-````
-
-### 🔹 Run the Backend
-
-```bash
-cd quicktask-backend
-./mvnw spring-boot:run
-```
-
-### 🔹 Run the Frontend
-
-```bash
-cd quicktask-frontend
-npm install
-npm run dev
-```
-
-### 🔹 Access the App
-
-* 🌐 **Frontend**: `http://localhost:5173`
-* 🔧 **Backend**: `http://localhost:8080`
-
----
-
-## 📸 Preview (Optional)
-
-> *(Add screenshots or GIFs here — e.g. `./assets/screenshot.png`)*
-
----
-
-## 📈 Future Enhancements
-
-* 🔔 Task reminders & notifications
-* ☁️ Cloud deployment (Render / Vercel / Railway)
-* 👥 User authentication & profiles
-* 📊 Analytics dashboard
-
----
-
-## 💡 About the Developer
-
-Built with ❤️ by [**Parthib Pal**](https://github.com/ParthibPal)
-📧 *Passionate about building clean, efficient full-stack applications.*
-
----
-
-### ⭐ If you like this project, consider giving it a **star** on GitHub!
-
----
-
-## 🎯 Optional Enhancements
-
-Add badges for a professional touch 👇
-
-![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
-![Spring Boot](https://img.shields.io/badge/Backend-Spring%20Boot-green?logo=springboot)
-![License](https://img.shields.io/badge/License-MIT-orange)
-
-```
-```
