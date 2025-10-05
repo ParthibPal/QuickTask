@@ -28,6 +28,9 @@ It helps you stay organized with categories, priorities, and due dates — all w
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the Repository
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/ParthibPal/QuickTask.git
 cd QuickTask
@@ -62,5 +65,3 @@ npm run dev
 💡 About the Developer
 Built with ❤️ by Parthib Pal
 📧 Passionate about building clean, efficient full-stack applications.
-
-⭐ If you like this project, consider giving it a star on GitHub!
