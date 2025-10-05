@@ -64,10 +64,3 @@ Built with ❤️ by Parthib Pal
 📧 Passionate about building clean, efficient full-stack applications.
 
 ⭐ If you like this project, consider giving it a star on GitHub!
-
-
-
-
-
-
-Copy code
