@@ -83,7 +83,5 @@ Built with ❤️ by [**Parthib Pal**](https://github.com/ParthibPal)
 
 ```
 
----
-
 Would you like me to also design a **badge section** (like build status, tech badges, etc.) for GitHub aesthetic? It would make the README look even more professional.
 ```
