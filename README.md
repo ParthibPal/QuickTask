@@ -1,11 +1,3 @@
-Ah, good catch 👍 — the issue is due to **extra or misplaced backticks** (` ``` `) and inconsistent Markdown block closure, which breaks GitHub’s Markdown rendering.
-
-Let’s fix that and make sure your README displays perfectly formatted **code blocks, tables, and headings**.
-
-Here’s your **correctly formatted and fully styled README.md** 👇
-
----
-
 ````markdown
 # 🚀 QuickTask
 
@@ -83,26 +75,5 @@ npm run dev
 
 Built with ❤️ by [**Parthib Pal**](https://github.com/ParthibPal)
 📧 *Passionate about building clean, efficient full-stack applications.*
-
----
-
 ### ⭐ If you like this project, consider giving it a **star** on GitHub!
 
-```
-
----
-
-✅ **Fix Summary:**
-- Removed the extra <code>\`\`\`\`</code> (four backticks) at the start and replaced with the proper three.  
-- Ensured every code block starts and ends cleanly.  
-- Fixed extra blank lines that can confuse GitHub Markdown rendering.  
-
----
-
-Would you like me to **add a badge section** (for technologies, build status, or license)?  
-It’ll give your README a GitHub-pro look — like:
-
-![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
-![Spring Boot](https://img.shields.io/badge/Backend-Spring%20Boot-green?logo=springboot)
-![License](https://img.shields.io/badge/License-MIT-orange)
-```
