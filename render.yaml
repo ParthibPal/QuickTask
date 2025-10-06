@@ -6,11 +6,11 @@ services:
     startCommand: ./mvnw spring-boot:run
     envVars:
       - key: DATABASE_URL
-        value: jdbc:postgresql://your-host:5432/quicktask
+        fromEnvVar: DATABASE_URL
       - key: DATABASE_USERNAME
-        value: postgres
+        fromEnvVar: DATABASE_USERNAME
       - key: DATABASE_PASSWORD
-        value: 12345
+        fromEnvVar: DATABASE_PASSWORD
 
   - type: web
     name: quicktask-frontend
@@ -20,4 +20,4 @@ services:
     staticPublishPath: dist
     envVars:
       - key: VITE_API_URL
-        value: https://quicktask-backend.onrender.com
+        fromEnvVar: VITE_API_URL
