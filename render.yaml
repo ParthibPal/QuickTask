@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: quicktask-backend
+    rootDir: quicktask-backend
+    buildCommand: ./mvnw clean install
+    startCommand: ./mvnw spring-boot:run
+    envVars:
+      - key: DATABASE_URL
+        value: jdbc:postgresql://your-host:5432/quicktask
+      - key: DATABASE_USERNAME
+        value: postgres
+      - key: DATABASE_PASSWORD
+        value: 12345
+
+  - type: web
+    name: quicktask-frontend
+    rootDir: quicktask-frontend
+    buildCommand: npm install && npm run build
+    startCommand: npm run preview
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://quicktask-backend.onrender.com
