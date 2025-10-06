@@ -1,7 +1,6 @@
 services:
   - type: web
     name: quicktask-backend
-    runtime: java
     rootDir: quicktask-backend
     buildCommand: ./mvnw clean install
     startCommand: ./mvnw spring-boot:run
@@ -10,7 +9,6 @@ services:
 
   - type: web
     name: quicktask-frontend
-    runtime: node
     rootDir: quicktask-frontend
     buildCommand: npm install && npm run build
     startCommand: npm run preview -- --port 3000
