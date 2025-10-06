@@ -16,7 +16,7 @@ services:
     name: quicktask-frontend
     rootDir: quicktask-frontend
     buildCommand: npm install && npm run build
-    startCommand: npm run preview
+    startCommand: npm run preview -- --port 3000
     staticPublishPath: dist
     envVars:
       - key: VITE_API_URL
