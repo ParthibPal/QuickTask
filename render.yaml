@@ -1,7 +1,6 @@
 services:
   - type: web
     name: quicktask-backend
-    runtime: java
     rootDir: quicktask-backend
     buildCommand: ./mvnw clean package -DskipTests
     startCommand: java -jar target/*.jar
