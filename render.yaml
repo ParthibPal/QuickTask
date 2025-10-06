@@ -1,23 +1,18 @@
 services:
   - type: web
     name: quicktask-backend
+    runtime: java
     rootDir: quicktask-backend
     buildCommand: ./mvnw clean install
     startCommand: ./mvnw spring-boot:run
     envVars:
-      - key: DATABASE_URL
-        fromEnvVar: DATABASE_URL
-      - key: DATABASE_USERNAME
-        fromEnvVar: DATABASE_USERNAME
-      - key: DATABASE_PASSWORD
-        fromEnvVar: DATABASE_PASSWORD
+      - fromGroup: quicktask-env
 
   - type: web
     name: quicktask-frontend
+    runtime: node
     rootDir: quicktask-frontend
     buildCommand: npm install && npm run build
     startCommand: npm run preview -- --port 3000
-    staticPublishPath: dist
     envVars:
-      - key: VITE_API_URL
-        fromEnvVar: VITE_API_URL
+      - fromGroup: quicktask-env
